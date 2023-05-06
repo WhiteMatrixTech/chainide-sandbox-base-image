@@ -108,6 +108,7 @@ if [ "${PACKAGES_ALREADY_INSTALLED}" != "true" ]; then
         locales \
         sudo \
         ncdu \
+        make \
         man-db \
         strace \
         manpages \
