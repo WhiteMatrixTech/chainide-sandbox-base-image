@@ -114,6 +114,7 @@ if [ "${PACKAGES_ALREADY_INSTALLED}" != "true" ]; then
         manpages \
         manpages-dev \
         libssl-dev \
+        build-essential \
         gnupg \
         init-system-helpers"
         
