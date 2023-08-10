@@ -116,6 +116,7 @@ if [ "${PACKAGES_ALREADY_INSTALLED}" != "true" ]; then
         libssl-dev \
         build-essential \
         gnupg \
+        gosu \
         init-system-helpers"
         
     # Needed for adding manpages-posix and manpages-posix-dev which are non-free packages in Debian
