@@ -15,3 +15,5 @@ RUN yes | unminimize 2>&1 \
 RUN curl -sL https://deb.nodesource.com/setup_16.x | sh -s -- -y && \
   apt-get install nodejs -y
 RUN npm install -g yarn
+
+COPY /root/.zshrc /root/.bashrc /root/.oh-my-zsh /root/.profile /tmp/
