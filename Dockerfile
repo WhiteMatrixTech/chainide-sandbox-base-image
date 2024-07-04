@@ -18,5 +18,5 @@ RUN npm install -g yarn
 
 RUN cp /root/.zshrc /tmp/.zshrc && \
     cp /root/.bashrc /tmp/.bashrc && \
-    cp -r /root/.ohmyzsh /tmp/.ohmyzsh && \
+    cp -r /root/.oh-my-zsh /tmp/.oh-my-zsh && \
     cp /root/.profile /tmp/.profile
