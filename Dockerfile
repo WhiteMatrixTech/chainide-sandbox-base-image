@@ -11,8 +11,8 @@ RUN yes | unminimize 2>&1 \
     && bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "${USER_UID}" "${USER_GID}" "${UPGRADE_PACKAGES}" "true" "true" \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
-# install node16
-RUN curl -sL https://deb.nodesource.com/setup_16.x | sh -s -- -y && \
+# install node18
+RUN curl -sL https://deb.nodesource.com/setup_18.x | sh -s -- -y && \
   apt-get install nodejs -y
 RUN npm install -g yarn
 
