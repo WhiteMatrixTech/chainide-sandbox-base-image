@@ -15,9 +15,7 @@ RUN yes | unminimize 2>&1 \
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
     apt-get install -y nodejs && \
     npm install -g npm@latest && \
-    npm install -g corepack && \
-    corepack enable && \
-    corepack prepare yarn@stable --activate
+    npm install -g yarn
 
 RUN cp /root/.zshrc /tmp/.zshrc && \
     cp /root/.bashrc /tmp/.bashrc && \
